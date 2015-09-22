@@ -7,7 +7,7 @@ xrandr --listproviders
 
 
 alias u="sudo pacman -Syu"
-alias i="sudo pacman -Syu; sudo yaourt -S $1"
+alias i="sudo pacman -Syu; yaourt -S $1"
 
 alias s='git add -A -v; git commit -m "commit"'
 alias sp="s; git push origin master"
